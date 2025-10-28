@@ -1,0 +1,11 @@
+{
+  "date": "2025-10-18T20:05:12.234098+00:00",
+  "seed": 42,
+  "char_maxlen": 200,
+  "char_epochs": 12,
+  "char_batch_size": 256,
+  "ensemble_weights": {
+    "char": 0.6,
+    "lgb": 0.4
+  }
+}

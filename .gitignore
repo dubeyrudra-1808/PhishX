@@ -1,0 +1,64 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.pickle
+*.sav
+*.log
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# ---- FastAPI / Backend ----
+*.db
+instance/
+*.sqlite3
+*.sqlite
+
+# ---- Frontend ----
+node_modules/
+dist/
+build/
+*.cache
+*.log
+.DS_Store
+
+# ---- IDE / Editor ----
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ---- OS Files ----
+Thumbs.db
+.DS_Store
+
+# ---- Dependencies ----
+# If you use pipenv or poetry
+Pipfile.lock
+poetry.lock
+
+# ---- Model & Data ----
+/models/
+*.h5
+*.pt
+*.onnx
+*.joblib
+*.csv
+*.xlsx
+*.json
+*.zip
+*.tar.gz
+
+# ---- Environment variables ----
+.env
+.env.local
